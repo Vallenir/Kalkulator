@@ -12,23 +12,27 @@ namespace KalkulatorWFA
 {
     public partial class Kalkulator : Form
     {
-        long zmienna = 0;
+        long zmienna1 = 0;
+        long zmienna3 = 0;
+        long zmienna2 = 0;
         private long liczba(long x)
         {
-            if (x != 0) {
-                zmienna = zmienna * 10 + x;
-               
+            if () {
+                if (x != 0) {
+                    zmienna2 = zmienna2 * 10 + x;
+
+                }
+                else
+                {
+                    zmienna2 = zmienna2 * 10;
+                }
+                return zmienna2;
             }
-            else
-            {
-                zmienna = zmienna * 10;
-            }
-            return zmienna;
         }
         
-        private long add(long x, y)
+        private long add(long x, long y)
         {
-
+           long  sum = x + y;
             return sum;
         }
         public Kalkulator()
@@ -47,71 +51,79 @@ namespace KalkulatorWFA
         }
         #region buttony 0-9
         private void but_1_Click(object sender, EventArgs e)
-        {
+        {   // jak obczaje delegaty
+            //Button b = new Button();
+            //b = (Button)sender;
             long i = 1;
             liczba(i);
-            TBx_1.Text = zmienna.ToString();
+            TBx_1.Text = zmienna2.ToString();
+
+            //zmienna = b.Text;
         }
         private void but_2_Click(object sender, EventArgs e)
         {
             long i = 2;
             liczba(i);
-            TBx_1.Text =  zmienna.ToString();
+            TBx_1.Text =  zmienna2.ToString();
         }
         private void but_3_Click(object sender, EventArgs e)
         {
             long i = 3;
             liczba(i);
-            TBx_1.Text = zmienna.ToString();
+            TBx_1.Text = zmienna2.ToString();
         }
         private void but_4_Click(object sender, EventArgs e)
         {
             long i = 4;
             liczba(i);
-            TBx_1.Text = zmienna.ToString();
+            TBx_1.Text = zmienna2.ToString();
         }
         private void but_5_Click(object sender, EventArgs e)
         {
             long i = 5;
             liczba(i);
-            TBx_1.Text = zmienna.ToString();
+            TBx_1.Text = zmienna2.ToString();
         }
         private void but_6_Click(object sender, EventArgs e)
         {
             long i = 6;
             liczba(i);
-            TBx_1.Text = zmienna.ToString();
+            TBx_1.Text = zmienna2.ToString();
         }
         private void but_7_Click(object sender, EventArgs e)
         {
             long i = 7;
             liczba(i);
-            TBx_1.Text = zmienna.ToString();
+            TBx_1.Text = zmienna2.ToString();
         }
         private void but_8_Click(object sender, EventArgs e)
         {
             long i = 8;
             liczba(i);
-            TBx_1.Text = zmienna.ToString();
+            TBx_1.Text = zmienna2.ToString();
         }
         private void but_9_Click(object sender, EventArgs e)
         {
             long i = 9;
             liczba(i);
-            TBx_1.Text = zmienna.ToString();
+            TBx_1.Text = zmienna2.ToString();
         }
         private void but_0_Click(object sender, EventArgs e)
         {
             long i = 0;
             liczba(i);
-            TBx_1.Text = zmienna.ToString();
+            TBx_1.Text = zmienna2.ToString();
         }
         #endregion
 
-        private void but_add_Click(object sender, EventArgs e)
+        public void but_add_Click(object sender, EventArgs e)  // nie dziala
         {
-            TBx_1.Text = "+";
+            
+            Methods.add(zmienna2, zmienna3);
+            TBx_1.Text = "+ " + zmienna3;
+
 
         }
+
     }
 }

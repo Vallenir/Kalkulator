@@ -49,7 +49,7 @@
             // TBx_1
             // 
             this.TBx_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBx_1.Location = new System.Drawing.Point(71, 33);
+            this.TBx_1.Location = new System.Drawing.Point(12, 21);
             this.TBx_1.Multiline = true;
             this.TBx_1.Name = "TBx_1";
             this.TBx_1.Size = new System.Drawing.Size(150, 30);
@@ -58,7 +58,7 @@
             // 
             // but_1
             // 
-            this.but_1.Location = new System.Drawing.Point(89, 82);
+            this.but_1.Location = new System.Drawing.Point(30, 67);
             this.but_1.Name = "but_1";
             this.but_1.Size = new System.Drawing.Size(33, 23);
             this.but_1.TabIndex = 1;
@@ -68,7 +68,7 @@
             // 
             // but_2
             // 
-            this.but_2.Location = new System.Drawing.Point(132, 82);
+            this.but_2.Location = new System.Drawing.Point(73, 67);
             this.but_2.Name = "but_2";
             this.but_2.Size = new System.Drawing.Size(33, 23);
             this.but_2.TabIndex = 2;
@@ -78,7 +78,7 @@
             // 
             // but_4
             // 
-            this.but_4.Location = new System.Drawing.Point(89, 111);
+            this.but_4.Location = new System.Drawing.Point(30, 96);
             this.but_4.Name = "but_4";
             this.but_4.Size = new System.Drawing.Size(33, 23);
             this.but_4.TabIndex = 3;
@@ -88,7 +88,7 @@
             // 
             // but_3
             // 
-            this.but_3.Location = new System.Drawing.Point(171, 82);
+            this.but_3.Location = new System.Drawing.Point(112, 67);
             this.but_3.Name = "but_3";
             this.but_3.Size = new System.Drawing.Size(33, 23);
             this.but_3.TabIndex = 4;
@@ -98,7 +98,7 @@
             // 
             // but_5
             // 
-            this.but_5.Location = new System.Drawing.Point(132, 111);
+            this.but_5.Location = new System.Drawing.Point(73, 96);
             this.but_5.Name = "but_5";
             this.but_5.Size = new System.Drawing.Size(33, 23);
             this.but_5.TabIndex = 5;
@@ -108,7 +108,7 @@
             // 
             // but_6
             // 
-            this.but_6.Location = new System.Drawing.Point(171, 111);
+            this.but_6.Location = new System.Drawing.Point(112, 96);
             this.but_6.Name = "but_6";
             this.but_6.Size = new System.Drawing.Size(33, 23);
             this.but_6.TabIndex = 6;
@@ -118,7 +118,7 @@
             // 
             // but_7
             // 
-            this.but_7.Location = new System.Drawing.Point(89, 140);
+            this.but_7.Location = new System.Drawing.Point(30, 125);
             this.but_7.Name = "but_7";
             this.but_7.Size = new System.Drawing.Size(33, 23);
             this.but_7.TabIndex = 7;
@@ -128,7 +128,7 @@
             // 
             // but_8
             // 
-            this.but_8.Location = new System.Drawing.Point(132, 140);
+            this.but_8.Location = new System.Drawing.Point(73, 125);
             this.but_8.Name = "but_8";
             this.but_8.Size = new System.Drawing.Size(33, 23);
             this.but_8.TabIndex = 8;
@@ -138,7 +138,7 @@
             // 
             // but_9
             // 
-            this.but_9.Location = new System.Drawing.Point(171, 140);
+            this.but_9.Location = new System.Drawing.Point(112, 125);
             this.but_9.Name = "but_9";
             this.but_9.Size = new System.Drawing.Size(33, 23);
             this.but_9.TabIndex = 9;
@@ -148,7 +148,7 @@
             // 
             // but_0
             // 
-            this.but_0.Location = new System.Drawing.Point(132, 169);
+            this.but_0.Location = new System.Drawing.Point(73, 154);
             this.but_0.Name = "but_0";
             this.but_0.Size = new System.Drawing.Size(33, 23);
             this.but_0.TabIndex = 10;
@@ -158,7 +158,7 @@
             // 
             // but_multi
             // 
-            this.but_multi.Location = new System.Drawing.Point(89, 169);
+            this.but_multi.Location = new System.Drawing.Point(30, 154);
             this.but_multi.Name = "but_multi";
             this.but_multi.Size = new System.Drawing.Size(33, 23);
             this.but_multi.TabIndex = 11;
@@ -167,7 +167,7 @@
             // 
             // but_div
             // 
-            this.but_div.Location = new System.Drawing.Point(171, 169);
+            this.but_div.Location = new System.Drawing.Point(112, 154);
             this.but_div.Name = "but_div";
             this.but_div.Size = new System.Drawing.Size(33, 23);
             this.but_div.TabIndex = 12;
@@ -176,7 +176,7 @@
             // 
             // but_subst
             // 
-            this.but_subst.Location = new System.Drawing.Point(171, 198);
+            this.but_subst.Location = new System.Drawing.Point(112, 183);
             this.but_subst.Name = "but_subst";
             this.but_subst.Size = new System.Drawing.Size(33, 23);
             this.but_subst.TabIndex = 13;
@@ -185,7 +185,7 @@
             // 
             // but_add
             // 
-            this.but_add.Location = new System.Drawing.Point(89, 198);
+            this.but_add.Location = new System.Drawing.Point(30, 183);
             this.but_add.Name = "but_add";
             this.but_add.Size = new System.Drawing.Size(33, 23);
             this.but_add.TabIndex = 14;
@@ -195,7 +195,7 @@
             // 
             // but_equal
             // 
-            this.but_equal.Location = new System.Drawing.Point(132, 198);
+            this.but_equal.Location = new System.Drawing.Point(73, 183);
             this.but_equal.Name = "but_equal";
             this.but_equal.Size = new System.Drawing.Size(33, 23);
             this.but_equal.TabIndex = 15;
@@ -206,7 +206,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(295, 264);
+            this.ClientSize = new System.Drawing.Size(171, 223);
             this.Controls.Add(this.but_equal);
             this.Controls.Add(this.but_add);
             this.Controls.Add(this.but_subst);
